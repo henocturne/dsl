@@ -108,17 +108,13 @@ Step thanks
 
  
 
-动作 
+lexer->语法动作
+- 中文识别
+- 非法检测
 
-- 中文识别？？
-
-语法树
-
+parser->语法树AST
 - 变量表
-
-parser
-
-​	代码生成
+- 非法符号
 
 interpreter
-
+- 生成代码
